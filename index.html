@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Trip</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/animate.min.css" />
+
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="js" href="css/bootstrap.js" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/myStyle.css">
+
+
+</head>
+
+
+<body>
+    <!-- caculation part -->
+    <nav class="nav px-4 py-3 justify-contents-center nav-calc position-fixed shadow rounded-3">
+
+        <div>
+            <h1 id="no"><i class=" fas fa-heart text-danger oheart "></i> <span class="text-dark">0</span> </h1>
+
+
+            <h1 id="cash"><i class=" fas fa-hand-holding-usd"></i> <span> 0.00</span></h1>
+            <button class="btn btn-success my-2 px-4 confirm hvr-pop">Confirm</button>
+            <button class="btn btn-danger my-2 px-4 clear hvr-pop">Clear All</button>
+        </div>
+    </nav>
+
+    <!-- append bill contents -->
+    <div id="bill" class=" container px-2 py-3 card position-fixed w-50 shadow d-none fs-4 border border-dark mx-auto text-center"
+        style="left: 40%;top:2%; z-index:1000 ;background-color: rgb(183, 212, 240);">
+        <!-- append here -->
+        <!-- append here -->
+        <!-- append here -->
+        <!-- append here -->
+
+        <div class="  mx-auto row w-100 px-0">
+            <h1 class="bg-light px-2 rounded-3 py-2 position-relative  col-12">TOTAL --- $ <span class="total">0.00</span>
+
+                <button type="submit" class="btn-success btn px-2 my-1 fw-bold hvr-pop mx-1 pe-3"> <i
+                        class="fas fa-plane mx-2"></i> Pay Now
+                </button>
+                <button class="btn btn-danger close fw-bold">Close</button>
+
+            </h1>
+        </div>
+    </div>
+    <h3 class="my-lbl position-fixed px-2 text-dark hvr-pop">Designed by @Lobna</h3>
+
+
+    <!-- append bill contents -->
+
+    <!-- cards -->
+    <div class="container me-1 pe-1 w-75 b-container pb-5">
+        <div class="row mx-auto">
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <!-- col1 -->
+                <div class="col">
+                    <div class="card ">
+                        <img src="img/sky.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-heart"></i> $ <span>2500</span></h5>
+                            <h1 class="card-text">Malysia</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- col2 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-heart"></i> $ <span>3500</span></h5>
+                            <h1 class="card-text">Thailand</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- col3 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/c2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-heart"></i> $ <span>2000</span></h5>
+                            <h1 class="card-text">Greece</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- col4 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/c3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-heart"></i> $ <span>5500</span></h5>
+                            <h1 class="card-text">France</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- col5 -->
+                <div class="col">
+                    <div class="card ">
+                        <img src="img/5.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-heart"></i> $ <span>2520</span></h5>
+                            <h1 class="card-text">Tunis</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- col6 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-heart"></i> $ <span>3520</span></h5>
+                            <h1 class="card-text">Sharm</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card">
+                        <img src="img/7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-heart"></i> $ <span>2020</span></h5>
+                            <h1 class="card-text">Baly</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="img/8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="far fa-heart"></i> $ <span>5520</span></h5>
+                            <h1 class="card-text">Roma</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        $(document).ready(
+
+            function () {
+                $(".fa-heart ,.fa-hand-holding-usd").addClass("fs-1 text-danger hvr-pop position-relative")
+                $('.card').addClass('hvr-float rounded-3 shadow border border-2 border-light')
+
+                //////////////////////////////////////////////
+
+                $(window).scroll(function () {
+                    $(".my-lbl").css('transition', '1s')
+                    if ($(window).scrollTop() > 750) {
+                        // alert('top');
+                        $(".my-lbl").removeClass("text-dark ")
+                        $(".my-lbl").addClass("text-light fs-1 fw-bold");
+
+
+
+                    } else {
+
+                        $(".my-lbl").removeClass("text-light fs-1 fw-bold")
+                        $(".my-lbl").addClass("text-dark");
+
+                    }
+                })
+
+                //////////////////////////////////////////////
+                var x = 0; //Count
+                var n = 0; //Amount
+                var z = 0;
+                var country
+
+                $(".far.fa-heart").click(function () {
+
+
+                    $(this).toggleClass("fas");
+
+                    if ($(this).hasClass("fas")) {
+                        x++;
+                        z = $(this).siblings("span").text(); // سعر التذكرة الواحده
+                        n = n + parseInt($(this).siblings("span").text());
+                        country = $(this).parents().siblings('.card-text')
+                        // alert(country)
+                        // copy & patse country name
+
+                        if (window.matchMedia('(max-width: 992px)').matches) {
+                            $("#bill").append(country.clone().addClass('app').append("<span> ---- $" + z +
+                                "</span>"));
+                        } else {
+                            $("#bill").append(country.clone().addClass('app').append("<span> ---------- $" +
+                                z + "</span>"));
+                        }
+
+                        /////////////////////// move the heart /////////////////////////////////
+                        $('.oheart').removeClass('fs-1');
+
+                        $('.oheart').animate({
+                            fontSize: "1.5em"
+                        }, 400).animate({
+                            fontSize: "1em"
+                        }, 400);
+
+
+
+                    } else {
+                        x--;
+                        n = n - parseInt($(this).siblings("span").text());
+                        z = $(this).siblings("span").text(); // سعر التذكرة الواحده
+                        country = $(this).parents().siblings('.card-text').html()
+                        // alert(country)
+
+                        $('.card-text.app:contains(' + country + ')').remove();
+                        $('.card-text.app span:contains(' + z + ')').remove();
+                        $("#bill .total").text(0)
+                    }
+
+                    $("#no").find("span").text(x);
+                    $("#cash").find("span").text(n);
+                    $("#bill .total").text(n)
+                })
+
+                ////////////////////////////// clear btn ///////////////////////////////////////////////
+                $('.clear ,.close').click(function () {
+                    $("#bill .app").empty();
+
+                    $("#bill .total").text(0)
+                    $("#bill").addClass("animate__animated animate__slideOutUp");
+                    $("#no").find("span").text(0);
+                    $("#cash").find("span").text('0.00');
+                    $(".far.fa-heart").removeClass('fas')
+
+                    n = 0
+                    z = 0
+                    x = 0
+                })
+
+                /////////////////////////////////////////////// confirm //////////////////////////////////////////////
+                $('.confirm').click(function () {
+
+
+                    $("#bill").removeClass("d-none")
+                    $("#bill").removeClass("animate__animated animate__slideOutUp");
+                    $("#bill").addClass("d-block animate__animated animate__slideInDown");
+
+                })
+
+            }
+        )
+    </script>
+
+</body>
+
+</html>

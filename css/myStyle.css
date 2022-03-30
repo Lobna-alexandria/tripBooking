@@ -1,0 +1,123 @@
+body {
+    background-image: url(../img/bt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.my-lbl {
+    left: 1%;
+    margin-top: 40%;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px #EFFFFE;
+
+}
+
+
+
+@media (max-width: 1160px) {
+
+    .my-lbl {
+        display: none !important;
+    }
+
+    #bill h1 {
+        font-size: larger !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .b-container {
+        /* margin-top: 25% !important; */
+        width: 100% !important;
+        padding: 1% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .nav-calc {
+        position: sticky !important;
+        top: 0;
+    }
+
+    .my-lbl {
+        display: none;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .nav-calc {
+        /* position: fixed; */
+        top: 0;
+        z-index: 1000;
+        background-color: wheat !important;
+        width: 100%;
+        margin: auto;
+    }
+
+    #bill {
+        width: 100% !important;
+        /* top: 22% !important; */
+        /* left: 1% !important; */
+        /* font-size: .6em; */
+    }
+
+    /* #bill span h1{margin: 0 !important ;} */
+}
+
+
+@media (max-width: 992px) {
+
+    #bill {
+        width: 90% !important;
+        padding: 1% !important;
+        left: 1% !important;
+        /* top: 20% !important; */
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #bill {
+        /* top: 20% !important; */
+        margin: 3% !important;
+    }
+
+
+    .b-container {
+        /* margin-top: 25% !important; */
+    }
+}
+
+@media (max-width: 700px) {
+    .b-container {
+        /* margin-top: 40% !important; */
+    }
+}
+
+@media (max-width: 500px) {
+    #bill h1 {
+        font-size: medium !important;
+    }
+
+    h1 button {
+        font-size: small !important;
+
+    }
+}
+
+@media (max-width: 375px) {
+    #bill h1 {
+        font-size: small !important;
+    }
+
+    h1 button {
+        font-size: smaller !important;
+
+    }
+
+    #bill h1 i {
+        display: none;
+    }
+}
